@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio&display=swap');
+
+html {
+    background: url(images/Background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    z-index: 0;
+}
+
+body {
+    height: 100%vh;
+    margin: 0px;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0vw 5vw 0vw 5vw;
+    width: 90vw;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+p {
+    justify-self: center;
+    align-self: center;
+    font-family: Barrio;
+    font-size: 4em;
+    text-shadow: 5px 5px 2px white;
+}
+
+.link {
+    text-align: center;
+    font-family: Barrio;
+    font-size: 2em;
+    width: 200px;
+    padding: 5px;
+    border: 4px solid black;
+    background-color: white;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.link:hover {
+    border: 4px solid #cc3333;
+    background-color: #999999;
+    text-shadow: 2px 2px white;
+    padding: 10px;
+    box-shadow: 5px 5px 2px #333333;
+}
+
+a {
+    align-self: center;
+    color: black;
+}
