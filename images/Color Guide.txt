@@ -1,0 +1,15 @@
+Color Guide
+
+Reds -
+#cc3333
+#993333
+#cc6666
+
+Yellows -
+#ffcc00
+#ffcc99
+
+Grays -
+#333333
+#666666
+#999999

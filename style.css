@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio&display=swap');
+
+html {
+    background: url(images/Background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    z-index: 0;
+}
+
+body {
+    height: 100%vh;
+    margin: 0px;
+}
+
+#header {
+    font-size: 2.2em;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 5vw 0vw 5vw;
+    width: 90vw;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#description {
+    min-width: 320px;
+    font-family: Barrio;
+    font-size: 1.5em;
+    z-index: 1;
+    display: flex;
+    text-shadow: 2px 2px white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#robot {
+    margin-left: -20px;
+    align-self: flex-end;
+    position: sticky; bottom: 0px;
+}
+
+#leftEye {
+    position: absolute;
+    bottom: 325px;
+    right: 400px;
+    z-index: 3;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+#rightEye {
+    position: absolute;
+    bottom: 290px;
+    right: 150px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.link {
+    padding: 5px;
+    border: 4px solid black;
+    background-color: white;
+}
+a {
+    color: black;
+}
+#links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-family: Barrio;
+    font-size: 2em;
+    min-width: 350px;
+    z-index: 4;
+}
