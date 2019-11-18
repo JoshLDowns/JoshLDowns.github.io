@@ -31,7 +31,7 @@ body {
 #name {
     min-width: 330px;
     font-family: Barrio;
-    font-size: 1.5em;
+    font-size: 1.8em;
     z-index: 1;
     text-shadow: 2px 2px 2px white;
     margin: 15px auto 25px auto;
@@ -132,10 +132,7 @@ a {
     #header {
         font-size: 1.5em;
         text-align: center;
-    }
-
-    .descrip {
-        display: none;
+        text-shadow: 2px 2px 2px white;
     }
     
     #mainContainer {

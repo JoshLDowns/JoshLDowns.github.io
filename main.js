@@ -3,6 +3,17 @@ let bioLink = document.getElementById('bioLink');
 let artLink = document.getElementById('artLink');
 let webLink = document.getElementById('webLink');
 let blogLink = document.getElementById('blogLink');
+let name = document.getElementById('name');
+
+name.addEventListener('mouseover', () => {
+    rightEye.style.bottom = '305px';
+    rightEye.style.right = '135px';
+})
+
+name.addEventListener('mouseleave', () => {
+    rightEye.style.bottom = '290px';
+    rightEye.style.right = '150px';
+})
 
 bioLink.addEventListener('mouseover', () => {
     rightEye.style.bottom = '295px';
