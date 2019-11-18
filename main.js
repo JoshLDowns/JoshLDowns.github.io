@@ -5,7 +5,7 @@ let webLink = document.getElementById('webLink');
 let blogLink = document.getElementById('blogLink');
 
 bioLink.addEventListener('mouseover', () => {
-    rightEye.style.bottom = '305px';
+    rightEye.style.bottom = '295px';
     rightEye.style.right = '135px';
 })
 
@@ -15,7 +15,7 @@ bioLink.addEventListener('mouseleave', () => {
 })
 
 artLink.addEventListener('mouseover', () => {
-    rightEye.style.bottom = '298px';
+    rightEye.style.bottom = '287px';
     rightEye.style.right = '130px';
 })
 
@@ -25,7 +25,7 @@ artLink.addEventListener('mouseleave', () => {
 })
 
 webLink.addEventListener('mouseover', () => {
-    rightEye.style.bottom = '283px';
+    rightEye.style.bottom = '280px';
     rightEye.style.right = '130px';
 })
 
