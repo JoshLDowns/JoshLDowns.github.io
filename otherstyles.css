@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barrio&display=swap');
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
 html {
     background: url(images/Background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-content: center;
     padding: 0vw 5vw 0vw 5vw;
-    width: 90vw;
+    width: 88vw;
     height: 100%;
     margin-bottom: 0px;
 }
@@ -42,6 +42,12 @@ body {
     align-content: center;
     justify-content: space-between;
     border-right: 10px dashed #666666;
+}
+
+#mobileRobot {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #mobileHead {
@@ -78,7 +84,7 @@ a {
 }
 
 #aboutComic {
-    margin-right: 8vw;
+    margin-right: 5vw;
 }
 
 #aboutComicMobile {
@@ -100,7 +106,7 @@ a {
     font-size: 3em;
 }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     html {
         background: url(images/Background-Mobile.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -150,6 +156,14 @@ a {
         margin: 10px auto 10px auto;
     }
 
+    .link:hover {
+        border: 4px solid #cc3333;
+        background-color: #999999;
+        text-shadow: 2px 2px white;
+        padding: 10px;
+        box-shadow: 5px 5px 2px #333333;
+    }
+
     a {
         align-self: center;
         color: black;
@@ -179,5 +193,20 @@ a {
 
     #comicMobile {
         width: 380px;
+    }
+
+    #title {
+        font-family: Barrio;
+        font-size: 2.5em;
+        z-index: 1;
+        text-shadow: 2px 2px 2px white;
+        text-align: center;
+    }
+
+    #construction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 }
