@@ -35,7 +35,7 @@ body {
 }
 
 #sidebar {
-    width: 350px;
+    width: 33vw;
     min-width: 350px;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,10 @@ a {
 }
 
 #aboutComic {
-    margin-right: 5vw;
+    width: 67vw;
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
 #aboutComicMobile {
