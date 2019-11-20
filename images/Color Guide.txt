@@ -8,6 +8,7 @@ Reds -
 Yellows -
 #ffcc00
 #ffcc99
+#ffe390
 
 Grays -
 #333333

@@ -153,7 +153,7 @@ a {
     }
 
     #mobileRobot {
-        margin: 5px auto 0px auto;
+        margin: 10px auto 0px auto;
     }
 
     #robot {
@@ -161,7 +161,7 @@ a {
     }
 
     #mobileHead {
-        width: 75vw;
+        width: 275px;
     }
 
     #leftEye {
