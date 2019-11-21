@@ -8,9 +8,11 @@ for (let thumb of thumbs) {
     thumb.addEventListener("click", () => {
         imagePopUp.style.width = '90vw';
         imagePopUp.style.height = '95vh';
-        imageClose.style.display = 'block';
-        currentImage.innerHTML = `<img src='/images/emoRobot/${thumb.id}.png' id='clickedImage' />`
+        currentImage.innerHTML = `<img src='/images/portfolio/${thumb.id}.png' id='clickedImage' />`
         imHeader.innerText = `${thumb.id}`;
+        setTimeout(function() {
+            imageClose.style.display = 'block';
+        }, 0500);
     })
 }
 
