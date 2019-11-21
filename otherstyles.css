@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
     align-content: center;
     padding: 0vw 2vw 0vw 2vw;
-    width: 88vw;
+    width: 95vw;
     height: 100%;
     margin-bottom: 0px;
 }
@@ -131,6 +131,7 @@ a {
 }
 
 #content {
+    margin-left: 4vw;
     width: 67vw;
     height: auto;
     min-width: 500px;
@@ -139,6 +140,7 @@ a {
 }
 
 #artContent {
+    margin-left: 4vw;
     width: 67vw;
     min-width: 500px;
     display: flex;
@@ -152,14 +154,14 @@ a {
 }
 
 .thumb:hover {
-    width: calc(15vw - 4px);
+    width: calc(14vw - 4px);
     border: 2px dashed #993333;
     box-shadow: 5px 5px 3px black
 }
 
 .thumb {
     margin: 5px;
-    width: 15vw;
+    width: 14vw;
     min-width: 175px;
     box-shadow: 2px 2px 1px black;
     -webkit-transition: all .25s ease-in-out;
@@ -299,10 +301,10 @@ a {
     }
 
     #mainContainer {
-        width: 400px;
+        width: 95vw;
         display: flex;
         flex-direction: column-reverse;
-        margin: auto;
+        margin: 0 auto 0 auto;
         align-content: center;
         justify-content: center;
         padding: 0vw 1vw 0vw 1vw;
@@ -313,6 +315,7 @@ a {
         display: flex;
         flex-direction: column;
         align-content: center;
+        align-self: center;
         justify-content: space-between;
     }
 
@@ -406,17 +409,19 @@ a {
     }
 
     #comicMobile {
-        width: 380px;
+        width: 90vw;
     }
 
     #content {
-        width: 400px;
+        width: 90vw;
         display: flex;
         justify-content: center;
+        align-self: center;
     }
 
     #artContent {
-        width: 400px;
+        width: 90vw;
+        align-self: center;
         display: flex;
         justify-content: center;
     }
@@ -429,12 +434,13 @@ a {
     
     .thumb {
         margin: 3px;
-        width: 135px;
+        width: 25vw;
+        min-width: 130px;
         box-shadow: 2px 2px 1px black;
     }
     
     #webStuff {
-        width: 80%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-content: center;
