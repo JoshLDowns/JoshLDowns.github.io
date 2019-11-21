@@ -261,7 +261,7 @@ let twoPlayerGame = document.getElementById("start2p");  //sets target for two p
 let backToWeb = document.getElementById("backToWeb");
 
 backToWeb.addEventListener("click", event => {
-    window.location='../web.html';
+    window.location='../web.html#nineBoard';
 });
 
 //one player click event listener

@@ -70,7 +70,7 @@ let subOneButton = document.getElementById("sub1");
 let backToWeb = document.getElementById("backToWeb");
 
 backToWeb.addEventListener("click", event => {
-    window.location='../web.html';
+    window.location='../web.html#ticTacToe';
 });
 
 subOne.addEventListener("submit", event => {
