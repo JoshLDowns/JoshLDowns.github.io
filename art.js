@@ -7,7 +7,7 @@ let imHeader = document.getElementById('imHeader');
 for (let thumb of thumbs) {
     thumb.addEventListener("click", () => {
         imagePopUp.style.width = '90vw';
-        imagePopUp.style.height = '95vh';
+        imagePopUp.style.height = '90vh';
         currentImage.innerHTML = `<img src='/images/portfolio/${thumb.id}.png' id='clickedImage' />`
         imHeader.innerText = `${thumb.id}`;
         setTimeout(function() {
