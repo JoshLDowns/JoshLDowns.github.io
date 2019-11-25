@@ -441,7 +441,7 @@ a {
     .thumb {
         margin: 3px;
         width: 25vw;
-        min-width: 130px;
+        min-width: 120px;
         box-shadow: 2px 2px 1px black;
     }
     
