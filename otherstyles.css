@@ -253,7 +253,7 @@ a {
     width: 0vw;
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.75);
-    margin: 20px auto 20px auto;
+    margin: 20px 3vw 20px 3vw;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -ms-transition: all .25s ease-in-out;
