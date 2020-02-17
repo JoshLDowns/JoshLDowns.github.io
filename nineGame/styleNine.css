@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barrio&display=swap');
 
 html {
-  background: url(../images/Background.png) no-repeat center center fixed; 
+  background: url(../resources/images/Background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
