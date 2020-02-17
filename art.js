@@ -9,7 +9,7 @@ for (let thumb of thumbs) {
         imagePopUp.style.width = '90vw';
         imagePopUp.style.height = '90vh';
         currentImage.innerHTML = `<img src='/images/portfolio/${thumb.id}.png' id='clickedImage' />`
-        imHeader.innerText = `${thumb.id}`;
+        imHeader.innerText = `${thumb.alt.slice(0, thumb.alt.lastIndexOf(' '))}`;
         setTimeout(function() {
             imageClose.style.display = 'block';
         }, 0500);
