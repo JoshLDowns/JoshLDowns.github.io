@@ -323,14 +323,16 @@ a {
         background-size: cover;
         min-height: 100%;
         z-index: 0;
+        padding: 0px;
     }
 
     #mainContainer {
         display: flex;
         flex-direction: column-reverse;
         margin: auto;
-        padding: 0vw 1vw 0vw 1vw;
+        padding: 0px;
         width: 90vw;
+        justify-content: space-between;
     }
 
     #sidebar {
