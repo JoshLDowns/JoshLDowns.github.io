@@ -185,6 +185,7 @@ a {
 }
 
 .webContent {
+    align-content: center;
     border: 3px dashed #333333;
     background-color: #ffe390;
     font-family: 'Indie Flower';
@@ -271,6 +272,17 @@ a {
     font-size: 1.2em;
     border: 2px solid #993333;
     background-color: #999999;
+}
+
+.code {
+    text-align: center;
+}
+
+#code {
+    max-width: 95%;
+    align-self: center;
+    justify-self: center;
+    margin: 5px auto 5px auto;
 }
 
 #imPopHeader {
@@ -463,6 +475,7 @@ a {
     }
     
     .webContent {
+        align-content: center;
         border: 3px dashed #333333;
         background-color: #ffe390;
         font-family: 'Indie Flower';
@@ -471,6 +484,17 @@ a {
         padding-right: 5px;
         padding-bottom: 5px;
         margin-bottom: 5px;
+    }
+
+    .code {
+        text-align: center;
+    }
+    
+    #code {
+        max-width: 95%;
+        align-self: center;
+        justify-self: center;
+        margin: 5px auto 5px auto;
     }
     
     .contentText {
