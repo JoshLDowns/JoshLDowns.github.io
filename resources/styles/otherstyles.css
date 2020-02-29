@@ -66,6 +66,7 @@ body {
 .link {
     text-align: center;
     font-family: Barrio;
+    text-decoration: underline;
     font-size: 2em;
     width: 300px;
     padding: 5px;
@@ -79,12 +80,20 @@ body {
     transition: all .25s ease-in-out;
 }
 
+.link-text {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .link:hover {
     border: 4px solid #cc3333;
     background-color: #999999;
     text-shadow: 2px 2px white;
     padding: 10px;
     box-shadow: 5px 5px 2px #333333;
+    cursor: pointer;
 }
 
 .smallLink {
