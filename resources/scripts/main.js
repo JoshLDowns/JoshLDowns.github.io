@@ -1,3 +1,6 @@
+//home page animation script
+
+//variable declaration
 let rightEye = document.getElementById('rightEye');
 let bioLink = document.getElementById('bioLink');
 let artLink = document.getElementById('artLink');
@@ -5,6 +8,7 @@ let webLink = document.getElementById('webLink');
 let blogLink = document.getElementById('blogLink');
 let name = document.getElementById('name');
 
+//various mouseover and mouseleave events to determine positioning
 name.addEventListener('mouseover', () => {
     rightEye.style.bottom = '305px';
     rightEye.style.right = '135px';

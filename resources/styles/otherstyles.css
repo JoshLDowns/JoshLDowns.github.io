@@ -49,11 +49,18 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
 }
 
 #mobileHead {
-    height: 100%;
+    position: fixed;
+    left: -300px;
+    bottom: 0px;
     width: 275px;
+    transition: all ease-in .5s;
 }
 
 .link {
