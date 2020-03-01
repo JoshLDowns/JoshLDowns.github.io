@@ -1,4 +1,3 @@
-console.log(location.href.split("/").slice(-1))
 
 if (location.href.split("/").slice(-1)[0]!=="" && location.href.split("/").slice(-1)[0]!=="index.html") {
     document.getElementById('home').addEventListener('click', homeClick);

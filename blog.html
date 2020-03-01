@@ -48,6 +48,63 @@
         <div id='content'>
             <div id='webStuff'>
                 <div class='blogEntry'>
+                    <p class='side'>February 29, 2020</p>
+                    <div class='webContent'>
+                        <p class='contentText'>Week four of the bootcamp is in the books, and I am feeling pretty
+                            excited about the future. There are plenty more hurdles on my journey, but each of them
+                            bring new challenges and new opportunites. There were two big focuses this past week, CSS
+                            and beginning my job search. As much as CSS can be a pain, the latter was definitely the
+                            most
+                            challenging part of my week. Writing a brand new resume and cover letter is a pretty
+                            daunting task, especially when you are jumping into a new field. Thankfully, Burlington Code
+                            Academy has pulled out all of the stops, and provided us with a pretty awesome career
+                            workshop on top of the great education we've been getting.</p>
+                        </br>
+                        <p class='contentText'>I have to say, looking for work in the tech field is way more
+                            intimidating than what I'm used to as a restaurant guy. There is just so much more that goes
+                            into it. When I would apply for a restaurant gig, it was mostly based on word of mouth, a
+                            casual interview over a beer, and my resume would almost never come into play. But in this
+                            field, let me tell you, that isn't at all the case. I've focused on not only my resume and
+                            cover letter, but my LinkedIn profile, my gitHub account, this portfolio website, and a
+                            multitude of networking endeavors. At first this was all foreign and a bit unnerving, but
+                            the more time I've spent working on it, the more accomplished and validated I feel. It truly
+                            feels like the work I'm putting in matters, and that it will help me move forward with my
+                            goals.</p>
+                        </br>
+                        <p class='contentText'>I don't want this post to be entirely about my job search, as it's still
+                            in it's infancy, but I will say that I have a couple initial places I will be applying to
+                            right away. With just eight weeks left in the course, and most interview processes taking
+                            potentially months, I want to get the ball rolling right away. With that all being said,
+                            there is one little code snippet I wanted to share that I am pretty happy with this week.
+                        </p>
+                        </br>
+                        <p class='contentText'>If you have been to my site before, you might have noticed the little
+                            robot that lives at the bottom left hand side of all of these pages. As the pages got
+                            longer, I wanted him to pop his goofy head in as you scrolled past the navigation bar, but
+                            this was something I'd never done before. After a little research, and some tinkering, I
+                            came up with this:</p>
+                        <div class='blogPickWrapper'>
+                            <img class='blog-pic' src='./resources/images/scrollSnip.png'
+                                alt='Code snippet for board state function' />
+                        </div>
+                        </br>
+                        <p class='contentText'>I know it doesn't look like much, and it definitely still has some things
+                            I could improve on, but it works! The biggest thing I want to play with is removing the
+                            event listener on the triggers so that the function isn't being called over and over again.
+                            It's not repainting each time it does that, so there really isn't much of an impact but I
+                            think learning how to do that for more intricate implications will be necessary. Either way,
+                            little improvements on the site will keep coming as I learn more, and I'm excited to really
+                            push the limits of what I can do with HTML, CSS, and JavaScript.</p>
+                        </br>
+                        <p class='contentText'>One last little note, I'll be starting a vlog as well on my LinkedIn page
+                            tomorrow. Once everyother week or maybe even every week I'll have a short video going in
+                            depth on a project I've worked on, or just giving a status update on my journey to become a
+                            Web Developer. Head over to my LinkedIn page to check it out tomorrow night!</p>
+                        </br>
+                        <p class='contentText'>Until next week, happy coding!</p>
+                    </div>
+                </div>
+                <div class='blogEntry'>
                     <p class='side'>February 24, 2020</p>
                     <div class='webContent'>
                         <p class='contentText'>Tic Tac Toe.... I never thought such a simple game would be the bane of
@@ -59,7 +116,7 @@
                             and
                             overthinking the problem, and it led me down some pretty deep rabbit holes. The deepest of
                             those rabbit holes was MiniMax.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>If you don't know what MiniMax is, it's basically an algorithm that can
                             be used to figure out the best possible move in deterministic games. It does this by looking
                             some amount of moves ahead in a game, and assigning scores to each move based on the outcome
@@ -67,7 +124,7 @@
                             their best results (positive scores for positive outcomes), while minimizing the opponents
                             best results (negative scores for negative outcomes) ...hence MiniMax. Sounds totally simple
                             right? I thought so too, but then I dove in.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>I should probably say that I went this route because I had already done
                             the Tic Tac Toe project in the part time Javascript class I took a few months ago. I had
                             built an AI that played the game perfectly that time around, but the first few turns of the
@@ -75,7 +132,7 @@
                             isn't meant to sound as rough as it does ...) this time around, I wanted to write a script
                             that figured out those first couple moves, and every other move on it's own.
                         </p>
-                        <br>
+                        </br>
                         <p class='contentText'>So lets dive into the coding process. My first attempt, obviously
                             following the
                             most proper order of trying things, was the deepest dive. I wrote a script that first built
@@ -83,11 +140,11 @@
                             for a game like Tic Tac Toe, that can be a lot of boards. On an empty board, there are
                             362,880 possible board states, which is a crazy amount of data to process for a game as
                             simple as Tic Tac Toe.</p>
-                        <div class='code'>
-                            <img id='code' src='./resources/images/buildStatesCodeSnip.png'
+                        <div class='blogPickWrapper'>
+                            <img class='blog-pic' src='./resources/images/buildStatesCodeSnip.png'
                                 alt='Code snippet for board state function' />
                         </div>
-                        <br>
+                        </br>
                         <p class='contentText'>This code snippet builds each possible board state for a single turn. It
                             creates an object for each state, with the keys of board, playerX, playerO, and score. The
                             board is an array of open moves on the board (spaces indexed 0-8), each player has an array
@@ -113,22 +170,22 @@
                             setting up a win in two more moves. Then the score function minimized each move based on the
                             opponents paths to victory in a similar fashion. The scoring code looked like this:
                         </p>
-                        <div class='code'>
-                            <img id='code' src='./resources/images/detScoreCodeSnip.png'
+                        <div class='blogPickWrapper'>
+                            <img class='blog-pic' src='./resources/images/detScoreCodeSnip.png'
                                 alt='Code snippet for board state function' />
                         </div>
                         <p class='contentText'>Basically, what this is doing is determing how many possible wins each
                             player has on the board, and assigning the score based on that. Then a makeMove function
                             looks at all of those scores, and determines the best move:</p>
-                        <div class='code'>
-                            <img id='code' src='./resources/images/makeMoveCodeSnip.png'
+                        <div class='blogPickWrapper'>
+                            <img class='blog-pic' src='./resources/images/makeMoveCodeSnip.png'
                                 alt='Code snippet for board state function' />
                         </div>
                         <p class='contentText'>If you'll notice, there is a small caveat to this approach. If the human
                             player does not play ideally in one corner case, the algorithm doesn't know how to handle
                             it. This only occurs on a board state like this:</p>
-                        <div class='code'>
-                            <img id='code' style='border: 2px dashed black; padding: 4px'
+                        <div class='blogPickWrapper'>
+                            <img class='blog-pic' style='border: 2px dashed black; padding: 4px'
                                 src='./resources/images/ticTacToeBoardSample.png'
                                 alt='Code snippet for board state function' />
                         </div>
@@ -141,7 +198,7 @@
                             and I very much enjoyed exploring many of them. I will say, next time I have a
                             problem like this, I'll (try to at least) follow the advice that I always tend to give, and
                             start small. Coding is easier when you build up, not down.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>I hope you enjoyed this rabbit hole as much as I did! Until next time,
                             Happy Coding!</p>
                     </div>
@@ -156,7 +213,7 @@
                             material in class. I've been able to work on my skills as a teacher though, as I've spent a
                             good deal of time helping the class out. It even looks like I'm going to get to TA the
                             upcoming part time class, which I'm really excited about.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>Now when I said I spent most of my week working on my text adventure,
                             that might have been a slight exaggeration... I spent the entire week working on it,
                             basically whenever I could. During the part time course, we got assigned this project called
@@ -168,7 +225,7 @@
                             for that project was ok, but nowhere near what I had envisioned. After the part time class
                             ended, I spent quite a bit of time tinkering with the game, and using it as an excuse to
                             learn new things.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>Fast forward to about a week and a half ago when I find out that I can
                             continue working on that project, and turn it in for the same project in the Full Time boot
                             camp I'm currently enrolled in. I'm beyond excited to keep working on the game, and dive
@@ -179,12 +236,12 @@
                             is a step back (sometimes more). I've learned to instead of letting that get me down, to
                             embrace it. It's part of the learning experience, and it's a part that will never go away.
                         </p>
-                        <br>
+                        </br>
                         <p class='contentText'>I think I'll end this one here, since it feels like I've hit a life
                             lesson of sorts. I've had a hard time in the past with self worth, and feeling like a
                             failure. Coding has really helped me understand that shortcomings and pitfalls are just part
                             of the journey.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>Until next week, happy coding!</p>
                     </div>
                 </div>
@@ -200,7 +257,7 @@
                             incredible woman that continues to push me towards bettering myself and the world around me.
                             I decided to start writing this blog as a way to sort of catalogue my journey in the world
                             of programming and web development.</p>
-                        <br>
+                        </br>
                         <p class='contentText'>I am currently in my first week of class in a web development bootcamp at
                             Burlington Code Academy, have taken the part time javascript course here at BCC, and have
                             taken some online courses. As a father with two small children, taking a 40 hour a week
@@ -213,7 +270,7 @@
                             they are), and most likely snippets of code and projects as time passes. So if you are into
                             coding, cute kids, goofy robot comics, want to see what projects I'm working on, or feel
                             like learning more about me, feel free to stop by each week and check it out!</p>
-                        <br>
+                        </br>
                         <p class='contentText'>Thanks for checking out my work! Until next week, happy coding!</p>
                     </div>
                 </div>
