@@ -1,4 +1,3 @@
-
 if (location.href.split("/").slice(-1)[0]!=="" && location.href.split("/").slice(-1)[0]!=="index.html") {
     document.getElementById('home').addEventListener('click', homeClick);
     document.getElementById('linkedIn').addEventListener('click', linkedInClick);
