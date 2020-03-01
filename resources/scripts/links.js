@@ -1,23 +1,25 @@
-if (!document.URL.includes('index.html')) {
+console.log(location.href.split("/").slice(-1))
+
+if (location.href.split("/").slice(-1)[0]!=="" && location.href.split("/").slice(-1)[0]!=="index.html") {
     document.getElementById('home').addEventListener('click', homeClick);
     document.getElementById('linkedIn').addEventListener('click', linkedInClick);
     document.getElementById('gitHub').addEventListener('click', gitHubClick);
     document.getElementById('facebook').addEventListener('click', facebookClick);
 }
 
-if (!document.URL.includes('bio.html')) {
+if (location.href.split("/").slice(-1)[0]!=="bio.html") {
     document.getElementById('bioLink').addEventListener('click', bioClick);
 }
 
-if (!document.URL.includes('art.html')) {
+if (location.href.split("/").slice(-1)[0]!=="art.html") {
     document.getElementById('artLink').addEventListener('click', artClick);
 }
 
-if (!document.URL.includes('web.html')) {
+if (location.href.split("/").slice(-1)[0]!=="web.html") {
     document.getElementById('webLink').addEventListener('click', webClick);
 }
 
-if (!document.URL.includes('blog.html')) {
+if (location.href.split("/").slice(-1)[0]!=="blog.html") {
     document.getElementById('blogLink').addEventListener('click', blogClick);
 }
 
