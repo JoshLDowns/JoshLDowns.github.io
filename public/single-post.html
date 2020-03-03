@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="resources/styles/otherstyles.css">
-    <title>Josh Downs - Bio</title>
+    <link rel="stylesheet" type="text/css" href="../resources/styles/otherstyles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Josh Downs - Blog</title>
 </head>
 
 <body>
@@ -18,6 +22,9 @@
                 </div>
                 <div id='home' class='link'>
                     <p class='link-text'>Home</p>
+                </div>
+                <div id='bioLink' class='link'>
+                    <p class='link-text'>About Me</p>
                 </div>
                 <div id='artLink' class='link'>
                     <p class='link-text'>Art Portfolio</p>
@@ -41,28 +48,24 @@
                     <p class='link-text'>Facebook</p>
                 </div>
                 <div>
-                    <p class='side'>ContacT</p>
+                    <p class='side'>ArcHIveS</p>
                 </div>
-                <div>
-                    <p id='contact' class='webContent'>
-                        Email: josh.lloyd.downs@gmail.com
-                    </p>
-                </div>
+                <div id='archived-posts'></div>
             </div>
             <div id='mobileRobot'>
-                <img id='mobileHead' src='resources/images/Head-Mobile.png' alt='Robot Head' />
+                <img id='mobileHead' src='../resources/images/Head-Mobile.png' alt='Robot Head' />
             </div>
         </div>
-        <div>
-            <div id='aboutComic'>
-                <img src='resources/images/About-Comic-PC.png' id='comic' />
-            </div>
-            <div id='aboutComicMobile'>
-                <img src='resources/images/About-Comic-Mobile.png' id='comicMobile'
-                    alt='Comic about containing info about Josh Downs' />
+        <div id='content'>
+            <div id='webStuff'>
             </div>
         </div>
-        <script src='resources/scripts/links.js'></script>
+    </div>
+    <script src='../resources/scripts/links.js'></script>
+    <script src='../resources/scripts/test.js'></script>
+    <script src='../resources/scripts/scroll-event.js'></script>
+    <script>getPost()</script>
+    <script src='../resources/scripts/archive-links.js'></script>
 </body>
 
 </html>
